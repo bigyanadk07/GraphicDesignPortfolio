@@ -4,8 +4,6 @@ import { Button } from '../ui/Buttons';
 import { Badge } from '../ui/Badge';
 import { Sparkles, ArrowDownRight } from 'lucide-react';
 
-
-
 const FloatingDesignShapes: React.FC = () => {
   const shapeVariants = [
     {
@@ -123,7 +121,6 @@ const FloatingDesignShapes: React.FC = () => {
   );
 };
 
-
 const Hero: React.FC = () => {
   // Variants for staggered animations
   const containerVariants = {
@@ -166,7 +163,6 @@ const Hero: React.FC = () => {
         animate="visible"
         className="container mx-auto px-4 pt-24 pb-32 relative z-10"
       >
-        {/* Rest of the existing Hero content remains the same */}
         {/* Year badge */}
         <motion.div 
           variants={itemVariants}
@@ -181,7 +177,8 @@ const Hero: React.FC = () => {
           className="text-2xl fraunces text-center leading-none mb-8"
         >
           Bigyan <span className='text-orange-400'> Adhikari</span> 
-        </motion.h1>
+        </motion.div>
+
         {/* Main heading */}
         <motion.h1 
           variants={itemVariants}
