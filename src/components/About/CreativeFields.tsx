@@ -4,15 +4,11 @@ import { CheckCircle } from 'lucide-react';
 export const CreativeFields:React.FC =()=> {
   const fields = [
     'Logo & Branding',
-    'Logo Motion',
     'Social Media Content',
     'Business Card',
-    'Brand Identity Buildup',
     'Brochure/Flyer',
     'Menu & Product',
-    'Presentation',
     'Problem Solving',
-    'Creative Direction'
   ];
 
   return (
