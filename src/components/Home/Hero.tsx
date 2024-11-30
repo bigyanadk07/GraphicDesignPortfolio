@@ -178,19 +178,17 @@ const Hero: React.FC = () => {
         {/* Detailed name and title */}
         <motion.div 
           variants={itemVariants}
-          className="text-center mb-8 space-y-2"
+          className="text-2xl fraunces text-center leading-none mb-8"
         >
-          <motion.h2 
-            className="text-4xl md:text-6xl fraunces tracking-tight text-gray-800"
-          >
-            Bigyan <span className='text-orange-500 '>Adhikari</span>
-          </motion.h2>
-          <motion.p 
-            className="text-xl md:text-2xl text-gray-600 tracking-wide"
-          >
-            Design is not just what it looks like, but how it works
-          </motion.p>
-        </motion.div>
+          Bigyan <span className='text-orange-400'> Adhikari</span> 
+        </motion.h1>
+        {/* Main heading */}
+        <motion.h1 
+          variants={itemVariants}
+          className="text-9xl fraunces text-center leading-none mb-8"
+        >
+          Portfolio
+        </motion.h1>
 
         {/* Creative Designer text with sparkle */}
         <motion.div 
