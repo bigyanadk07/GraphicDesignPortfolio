@@ -182,7 +182,7 @@ const Hero: React.FC = () => {
         {/* Main heading */}
         <motion.h1 
           variants={itemVariants}
-          className="text-9xl fraunces text-center leading-none mb-8"
+          className="text-7xl fraunces text-center leading-none mb-8"
         >
           Port<span className='text-orange-400'>folio</span>
         </motion.h1>
