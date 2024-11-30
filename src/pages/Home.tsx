@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from '../components/Home/Hero'
-import EndofPage from '../components/EndofPage.svg'
+import EndofPage from '../components/ui/EndofPage.svg'
 
 const Home:React.FC = () => (
     <div>

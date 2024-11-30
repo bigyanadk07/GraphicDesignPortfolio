@@ -6,7 +6,7 @@ import {
   Globe2
 } from 'lucide-react';
 
-import EndofPage from '../EndofPage.svg'
+import EndofPage from './EndofPage.svg'
 
 const Footer: React.FC = () => {
   return (

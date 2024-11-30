@@ -1,6 +1,6 @@
 import React from 'react'
 import AboutSection from '../components/About/AboutSection'
-import EndofPage from '../components/EndofPage.svg'
+import EndofPage from '../components/ui/EndofPage.svg'
 
 const AboutPage:React.FC = () => {
   return (

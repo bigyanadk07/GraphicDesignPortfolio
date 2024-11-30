@@ -3,7 +3,7 @@ import React from 'react';
 const Education:React.FC = () =>{
   return (
     <div>
-      <h2 className="text-2xl fraunces mb-6">Education</h2>
+      <h2 className="text-2xl fraunces mb-6">Educ<span className='text-orange-400'>ation</span></h2>
       <div className="space-y-6">
         <div>
           <h3 className="font-medium">Undergrad Level</h3>

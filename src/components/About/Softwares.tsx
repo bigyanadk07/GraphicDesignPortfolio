@@ -10,7 +10,7 @@ const Softwares:React.FC = () => {
 
   return (
     <div>
-      <h2 className="text-2xl fraunces mb-6">Softwares</h2>
+      <h2 className="text-2xl fraunces mb-6">Soft<span className='text-orange-400'>wares</span></h2>
       <div className="space-y-3">
         {softwares.map((software, index) => (
           <div key={index} className="flex items-center gap-2">

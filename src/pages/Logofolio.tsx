@@ -1,7 +1,7 @@
 import React from 'react';
 import { LogoGrid } from '../components/Logofolio/LogoGrid';
 import { PageHeader } from '../components/Logofolio/PageHeader';
-import EndofPage from '../components/EndofPage.svg'
+import EndofPage from '../components/ui/EndofPage.svg'
 
 export const LogofolioPage:React.FC = () =>{
   return (

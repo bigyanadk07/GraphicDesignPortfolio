@@ -44,11 +44,11 @@ const AboutSection:React.FC = () => {
           {/* Left Column */}
           <motion.div variants={itemVariants}>
             <motion.h1 variants={itemVariants} className="text-5xl fraunces mb-8">
-              Hello!
+              He<span className='text-orange-400'>llo!</span>
             </motion.h1>
             <div className="space-y-6 text-gray-700">
               {[
-                "My name is <span className='font-medium text-black'>Bigyan Adhikari</span>, and I am a graphic designer specializing in brand development.",
+                "My name is <span className='font-bold text-black'>Bigyan Adhikari</span>, and I am a graphic designer specializing in brand development.",
                 "My expertise extends beyond logos to encompass diverse design projects, including brand identity and visual branding, that are essential for any brand or company.",
                 "I am committed to creating designs that not only look great but also effectively communicate the client's message and values."
               ].map((text, index) => (

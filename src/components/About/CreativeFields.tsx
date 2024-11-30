@@ -17,7 +17,7 @@ export const CreativeFields:React.FC =()=> {
 
   return (
     <div>
-      <h2 className="text-2xl fraunces mb-6">Creative Fields</h2>
+      <h2 className="text-2xl fraunces mb-6">Creative <span className='text-orange-400'>Fields</span></h2>
       <div className="grid grid-cols-2 gap-4">
         {fields.map((field, index) => (
           <div key={index} className="flex items-center gap-2">
