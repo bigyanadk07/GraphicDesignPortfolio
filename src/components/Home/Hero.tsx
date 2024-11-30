@@ -183,7 +183,7 @@ const Hero: React.FC = () => {
           <motion.h2 
             className="text-4xl md:text-6xl fraunces tracking-tight text-gray-800"
           >
-            Bigyan <span className='text-orange-500 italic'>Adhikari</span>
+            Bigyan <span className='text-orange-500 '>Adhikari</span>
           </motion.h2>
           <motion.p 
             className="text-xl md:text-2xl text-gray-600 tracking-wide"
