@@ -184,7 +184,7 @@ const Hero: React.FC = () => {
           variants={itemVariants}
           className="text-9xl fraunces text-center leading-none mb-8"
         >
-          Portfolio
+          Port<span className='text-orange-400'>folio</span>
         </motion.h1>
 
         {/* Creative Designer text with sparkle */}
